@@ -27,8 +27,8 @@ mvs() {
 	read num
 	case $num in 
 		# 0 ) mv "$1" "$2" ;;
-		0 ) echo 'mv "$1" "$2"' ;;
-		1 ) echo "are you ok ?" ;;	
+		0 ) echo "mv "$1" "$2"" ;;
+		1 ) echo "overwrite '$2'? [y/n] " ;;	
 	esac
 }
 
